@@ -5,4 +5,43 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
-
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.content{
+    width: 22vw;
+}
+img{
+    width: 22vw;
+    height: 40vh;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.text{
+    font-size: small;
+    line-height: 18px;
+}
+.title_content{
+    display: flex;
+    justify-content: space-between;
+}
+.bold{
+    font-weight: 600;
+}
+.grey{
+    color: rgb(114, 112, 112);
+}
+.right_title{
+    display: flex;
+    flex-direction: row;
+}
+.star_icon{
+    width: 13px;
+    height: 13px;
+}
+.price{
+    display: flex;
+    flex-direction: row;
+}
