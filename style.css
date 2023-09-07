@@ -1,6 +1,9 @@
+
+
 *{
     margin: 0;
     padding: 0;
+    outline: solid 2px red;
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
@@ -12,7 +15,14 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    
     width: 100vw;
+}
+
+.box_logo {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .logo_principal_pag {
@@ -20,8 +30,16 @@ body{
     width: 6vw;
 }
 
+.box_search {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
 .search_engine {
     width: 10vw;
+    display: flex;
+    justify-content: center;
 
 
 }
