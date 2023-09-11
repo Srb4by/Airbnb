@@ -17,14 +17,25 @@ nav{
     width: 3vw;
     height: 6vh;
     margin: 1vh 2vw;
+}
+.nav_icon{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
     opacity: 50%;
+}
+.nav_option_text{
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: bold;
 }
 .arrow_btn img{
     width: 2vw;
     height: 4vh;
     margin-left: 6px;
     margin-right: 1vh;
-    margin-top: ;
+    margin-top: 0.5vh;
 }
 .arrow_btn:hover{
     cursor: pointer;
