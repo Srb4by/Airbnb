@@ -19,6 +19,18 @@ img{
     height: 40vh;
     object-fit: cover;
     border-radius: 12px;
+    position: relative;
+}
+.over{
+    position: absolute;
+    width: 20vw;
+    margin-left: 20vw;
+    margin-top: -39vh;
+}
+.heart_icon{
+    width: 1.5vw;
+    height: 3vh;
+    opacity: 70%;
 }
 .text{
     font-size: small;
@@ -30,6 +42,7 @@ img{
 }
 .bold{
     font-weight: 600;
+    margin-right: 3px;
 }
 .grey{
     color: rgb(114, 112, 112);
@@ -42,8 +55,10 @@ img{
     width: 13px;
     height: 13px;
     margin-top: 2px;
+    margin-right: 2px;
 }
 .price{
     display: flex;
     flex-direction: row;
+    margin-top: 3px;
 }
