@@ -3,7 +3,7 @@
 *{
     margin: 0;
     padding: 0;
-    /* outline: solid 2px red; */
+/* outline: solid 2px red; */
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
@@ -75,10 +75,6 @@ section {
 
 .box_search {
     background-color: white;
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
-    align-items: center;
     width: 400px;
     height: 40px;
     border:solid 1px rgba(0, 0, 0, 0.195);
@@ -87,6 +83,9 @@ section {
 }
 
 .box_search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     margin-top: 45px;
     position: absolute;
     left: 50%;
@@ -95,6 +94,21 @@ section {
 
 .box_search:hover {
     box-shadow: 0px 2px 1px 1px rgba(147, 146, 146, 0.336);
+}
+
+.p1{
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.p2{
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.p3{
+    margin-left: 4px;
+    margin-right: 4px;
 }
 
 .text_search_img {
