@@ -1,3 +1,5 @@
+
+
 *{
     margin: 0;
     padding: 0;
@@ -176,3 +178,74 @@ section {
     height: 20px; 
 }
 
+nav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.nav_icon img{
+    width: 3vw;
+    height: 6vh;
+    margin: 1vh 2vw;
+}
+.nav_icon{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+
+.option {
+    height: 90px;
+    margin-bottom: 10px;
+    opacity: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav_option_text{
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: bold;
+}
+.arrow_btn img{
+    width: 2vw;
+    height: 4vh;
+    margin-left: 6px;
+    margin-right: 1vh;
+    margin-top: 0.5vh;
+}
+.arrow_btn:hover{
+    cursor: pointer;
+}
+.nav_btn{
+    margin: 1vh 2vw;
+    display: flex;
+    align-items: center;
+    padding: 10px 6px;
+    margin-left: 6px;
+    background: transparent;
+    border: 1px solid rgba(77, 75, 75, 0.406);
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.nav_btn img{
+    width: 1.5vw;
+    height: 3vh;
+}
+
+
+.option:hover {
+
+    box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.148);
+    opacity: 100%;
+    cursor: pointer;
+
+
+}
