@@ -1,41 +1,48 @@
-
-
 *{
     margin: 0;
     padding: 0;
-    /* outline: solid 2px red; */ 
+    /* outline: solid 2px red; */
 }
 body{
     font-family: Helvetica, Arial, sans-serif;
 }
 
+hr {
+    opacity: 0.3;
+}
+
 section {
-    background-color: bisque;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     height: 100px;
+    margin: 5px 20px 0px 20px;
+    justify-content: space-between;
+    
 }
 
 .button_addhouse {
-    width: 200px;
-    height: 15px;
+    width: 300px;
+    height: 40px;
     display: flex;
-    justify-content: center;
-    flex-direction: row;
     align-items: center;
-    display: inline-block;
+    justify-content: center;
+    transition: 0.5s;
     background-color: #3498db00;
     color: #000000;
-    border: none;
+
     cursor: pointer;
-    text-align: center;
-    text-decoration: none;
     border-radius: 15px;
+    transition: 0.5s;
 }
 
 .button_addhouse:hover {
     background-color: #c2b8b845;
+    width: 300px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+
 }
 
 .login:hover {
@@ -49,6 +56,18 @@ section {
     display: flex;
     justify-content: flex-start;
     margin-left: 1vw;
+    cursor: pointer;
+    
+}
+
+.box_logo:hover {
+
+}
+
+.delete_background_logo {
+    border: none;
+    background-color: #00000000;
+    cursor: pointer;
 }
 
 .logo_principal_pag {
@@ -56,10 +75,27 @@ section {
 }
 
 .box_search {
+    background-color: white;
     display: flex;
     justify-content: center;
+    justify-content: space-around;
+    align-items: center;
     width: 400px;
-    height: 30px;
+    height: 40px;
+    border:solid 1px rgba(0, 0, 0, 0.195);
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.box_search {
+    margin-top: 45px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box_search:hover {
+    box-shadow: 0px 2px 1px 1px rgba(147, 146, 146, 0.336);
 }
 
 .text_search_img {
@@ -67,6 +103,8 @@ section {
     border-radius: 100%;
     width: 30px;
     height: 30px;
+    cursor: pointer;
+    border: none;
 }
 
 .text_search_img img {
@@ -107,12 +145,34 @@ section {
 }
 
 .login {
-    width: 2.5vw;
-    height: 1.8vw;
+    width: 4.5vw;
+    height: 2vw;
     display: flex;
     justify-content: center;
     flex-direction: row;
     align-items: center;
     border-radius: 15px;
+    background-color: #00000000;
+    border-color: #00000016;
+}
+
+
+.text_search {
+    border: none;
+    background-color: #3498db00;
+    color: #000000;
+    cursor: pointer;
+}
+
+.text_search_bold {
+    border: none;
+    background-color: #3498db00;
+    color: #000000;
+    cursor: pointer;
+}
+
+.linea-vertical {
+    border-left: 1px solid #0000002f; 
+    height: 20px; 
 }
 
