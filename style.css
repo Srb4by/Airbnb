@@ -40,6 +40,46 @@ nav{
 
 .nav_option_text{
     font-size: 10px;
+}
+
+.button_addhouse:hover {
+    background-color: #c2b8b845;
+    width: 300px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+
+}
+
+.login:hover {
+    box-shadow: 0px 2px 1px 1px rgba(147, 146, 146, 0.336);
+}
+
+
+
+
+.box_logo{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 1vw;
+    cursor: pointer;
+    
+}
+
+
+.delete_background_logo{
+    border: none;
+    background-color: #00000000;
+    cursor: pointer;
+}
+
+.logo_principal_pag{
+    width: 6vw;
+}
+
+.box_search{
+    background-color: white;
     display: flex;
     justify-content: center;
     font-size: bold;
@@ -72,7 +112,7 @@ nav{
 }
 
 
-.option:hover {
+.option:hover{
 
     box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.148);
     opacity: 100%;
@@ -162,3 +202,18 @@ main{
 .btn_map:hover{
     cursor: pointer;
 }
+
+.text_search_bold{
+    border: none;
+    background-color: #3498db00;
+    color: #000000;
+    cursor: pointer;
+}
+
+.linea-vertical{
+    border-left: 1px solid #0000002f; 
+    height: 20px; 
+}
+
+
+
