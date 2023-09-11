@@ -3,7 +3,7 @@
 *{
     margin: 0;
     padding: 0;
-    outline: solid 2px red; */
+    /* outline: solid 2px red; */ 
 }
 body{
     font-family: Helvetica, Arial, sans-serif;
@@ -17,7 +17,7 @@ section {
     height: 100px;
 }
 
-.boton {
+.button_addhouse {
     width: 200px;
     height: 15px;
     display: flex;
@@ -34,7 +34,7 @@ section {
     border-radius: 15px;
 }
 
-.boton:hover {
+.button_addhouse:hover {
     background-color: #c2b8b845;
 }
 
@@ -58,10 +58,20 @@ section {
 .box_search {
     display: flex;
     justify-content: center;
+    width: 400px;
+    height: 30px;
 }
 
-.text_search {
-    
+.text_search_img {
+    background-color: rgb(255, 0, 0);
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+}
+
+.text_search_img img {
+    width: 25px;
+    height: 25px;
 }
 
 .symbol_web {
