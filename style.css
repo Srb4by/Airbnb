@@ -506,7 +506,41 @@ main{
 /* NAV CSS */
 
 /* Main CSS */
+.content{
+    width: 45vw;
+}
 
+.img_house{
+    width: 45vw;
+    height: 32vh;
+}
+
+.over_heart{
+    position: absolute;
+    margin-left: 40vw;
+    margin-top: -31vh;
+}
+
+.heart_icon{
+    width: 3.5vw;
+    height: 3vh;
+}
+
+.text{
+    font-size: medium;
+}
+
+.btn_map{
+	padding: 17px 14px;
+	bottom: 20px;
+	left: 40%;
+}
+
+.map_icon{
+    width: 3.5vw;
+    height: 2.7vh;
+    margin-top: -5.5px;
+}
 /* Footer CSS */
 .footer_top_menu_ver ul, .footer_mid, .footer_text, .about {    
     flex-direction: column;  
