@@ -508,9 +508,9 @@ main{
 
 /* NAV CSS */
 .nav_icon img{
-    width: 3vw;
-    height: 3vh;
-    margin: 1vh 2.5vw;
+    width: 3.5vw;
+    height: 3.5vh;
+    margin: 1vh 1.5vw;
 }
 
 .nav_option_text{
