@@ -505,7 +505,7 @@ main{
 
 
 /* Css Mobile */
-@media only (max-width: 479px){
+@media (max-width: 479px){
 /* Header CSS */
 
 /* NAV CSS */
