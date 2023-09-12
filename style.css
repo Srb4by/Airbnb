@@ -1,28 +1,19 @@
-
+/*Desktop CSS*/
 
 *{
     margin: 0;
     padding: 0;
-<<<<<<< HEAD
-    /* outline: solid 1px red; */
-=======
-/* outline: solid 2px red; */
->>>>>>> 91127bbdfcefd20e96987c9ae541d5b7d1385bc2
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
 /* Footer Styles*/
 
-<<<<<<< HEAD
-
 footer, .bloque{
     /* display: block; */
     background: #ddd;
     padding: 3.5vw 3vw;
 }
-
-
 
 .footer_top{
     color: #222;
@@ -61,7 +52,9 @@ h2{
     margin: 1vw;
 }
 
-
+.hr_after_footer{
+    border-bottom: solid 1px rgba(127 ,127,127,0.6);
+}
 
 .footer_mid {
     display: flex;
@@ -159,8 +152,8 @@ a{
 .underline:hover{
     text-decoration: underline;
 }
-=======
-hr {
+
+.hr_header {
     opacity: 0.3;
 }
 
@@ -511,5 +504,25 @@ main{
 }
 
 
+/* Css Mobile */
+@media only (max-width: 479px){
+/* Header CSS */
 
->>>>>>> 91127bbdfcefd20e96987c9ae541d5b7d1385bc2
+/* NAV CSS */
+
+/* Main CSS */
+
+/* Footer CSS */
+
+}
+
+/* Css Tablet */
+@media only screen and (min-width: 480px) and (max-width: 1023px){
+/* Header CSS */
+
+/* NAV CSS */
+
+/* Main CSS */
+
+/* Footer CSS */
+}
