@@ -511,7 +511,7 @@ main{
 }
 
 .nav_option_text{
-    font-size: 8px;
+    display:none;
 }
 
 .arrow_btn img{
