@@ -17,3 +17,10 @@ La parte de NAV BAR ha sido diseñada tanto por Noelia Rey y Oli Casiano.
 La parte de BODY o cuerpo de la pagina ha sido diseñada por Noelia.
 La parte de FOOTER ha sido diseñada por Jonathan Carus.
 
+![imagen]img/pag_created_header_and_body.png
+![imagen]img/created_pag_header_and_body_responsive.png
+![imagen]img/created_pag_footer.png
+![iamgen]img/created_pag_footer_responsive.png
+
+
+
