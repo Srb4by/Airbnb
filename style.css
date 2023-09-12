@@ -507,6 +507,24 @@ main{
 /* Header CSS */
 
 /* NAV CSS */
+.nav_icon img{
+    width: 3vw;
+    height: 3vh;
+    margin: 1vh 2.5vw;
+}
+
+.nav_option_text{
+    font-size: 8px;
+}
+
+.arrow_btn img{
+    height: 2vh;
+}
+
+.nav_btn img{
+    width: 2vw;
+    height: 2vh;
+}
 
 /* Main CSS */
 .content{
